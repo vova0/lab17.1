@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="225.0" prefWidth="295.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets />
+    </padding>
+   <Label contentDisplay="CENTER" prefHeight="17.0" prefWidth="19.0" text="a" />
+   <TextField prefHeight="25.0" prefWidth="40.0" fx:id="TF1" />
+   <Label alignment="CENTER" contentDisplay="CENTER" text="b"  />
+   <TextField prefHeight="25.0" prefWidth="184.0" fx:id="TF2" />
+    <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="68.0" text="clear" />
+   <Button mnemonicParsing="false" text="=" onAction="#Two"/>
+   <Label prefHeight="16.0" prefWidth="23.0" text="sum" />
+<Label fx:id="l1"/>
+</VBox>
